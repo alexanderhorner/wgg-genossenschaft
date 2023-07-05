@@ -10,7 +10,7 @@ export default function Footer() {
         <Image src={WGGLogo} alt="WGG Logo" height={40} />
       </Link>
 
-      <span className="">&copy; 2023 <Link href="https://www.wgg-neumarkt.de" className="hover:text-slate-500 underline underline-offset-4">Alexander Horner</Link>. Alle Rechte vorbehalten.</span>
+      <span className="">&copy; 2023 <Link href="https://www.alexanderhorner.com" className="hover:text-slate-500 underline underline-offset-4">Alexander Horner</Link>. Alle Rechte vorbehalten.</span>
           
     </footer>
   )
