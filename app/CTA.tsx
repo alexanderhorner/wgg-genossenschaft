@@ -5,7 +5,7 @@ export default function CTA() {
   return (
     <div className="py-20 mx-auto px-3 max-w-screen-lg">
       <div className="px-6 py-10 bg-slate-50 rounded-lg">
-        <h2 className="text-3xl sm:text-4xl font-bold">Mach mit. Gestalte. <br />Werde Genosse!</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Mach mit. Gestalte. <br />Werde Genosse!</h2>
         <div className="mt-10 flex items-center gap-x-6">
           <Link
             href="https://www.wgg-neumarkt.de/schuelergenossenschaft/wggenossenschaft"
