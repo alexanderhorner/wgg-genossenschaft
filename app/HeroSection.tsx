@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import WGGLogoBlue from './wgg-logo-blue.svg'
+import WGGLogoColor from './wgg-logo-color.svg'
 import { ArrowRightIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 
@@ -16,9 +16,9 @@ export default function HeroSection() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <Link href="https://www.wgg-neumarkt.de" className="p-1.5 text-blue-600">
+            <Link href="https://www.wgg-neumarkt.de" className="p-1.5 text-red-600">
               <span className="sr-only">WGG Genossenschaft</span>
-              <Image src={WGGLogoBlue} alt="WGG Logo" height={32} />
+              <Image src={WGGLogoColor} alt="WGG Logo" height={32} />
             </Link>
           </div>
           {/* <div className="flex gap-x-5 lg:gap-x-12">
@@ -37,7 +37,7 @@ export default function HeroSection() {
           aria-hidden="true"
         >
           <div
-            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fc8989] to-[#c4fc89] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             style={{
               clipPath:
                 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -48,7 +48,7 @@ export default function HeroSection() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Verkündung unserer neuen Finanzierungsrunde.{' '}
-              <Link href="https://www.wgg-neumarkt.de/schuelergenossenschaft/wggenossenschaft" className="font-semibold text-blue-600">
+              <Link href="https://www.wgg-neumarkt.de/schuelergenossenschaft/wggenossenschaft" className="font-semibold text-red-600">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Mehr erfahren <span aria-hidden="true"><ArrowRightIcon className="h-4 w-4 inline-block" /></span>
               </Link>
@@ -64,7 +64,7 @@ export default function HeroSection() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 href="https://www.wgg-neumarkt.de/schuelergenossenschaft/wggenossenschaft"
-                className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                className="rounded-md bg-red-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
               >
                 Anmelden
               </Link>
@@ -79,7 +79,7 @@ export default function HeroSection() {
           aria-hidden="true"
         >
           <div
-            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ffd080] to-[#fc89c8] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
             style={{
               clipPath:
                 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
