@@ -68,7 +68,7 @@ export default function HeroSection() {
               >
                 Anmelden
               </Link>
-              <Link href="https://www.wgg-neumarkt.de/schuelergenossenschaft/wggenossenschaft" className="text-sm font-semibold leading-6 text-gray-900">
+              <Link href="https://www.wgg-neumarkt.de/search/WGGenossenschaft" className="text-sm font-semibold leading-6 text-gray-900">
                 Mehr erfahren <span aria-hidden="true"><ArrowRightIcon className="h-4 w-4 inline-block" /></span>
               </Link>
             </div>
